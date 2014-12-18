@@ -81,4 +81,13 @@
         settings:advanced="true">
     </PreferenceScreen>
     
+     </PreferenceScreen>
+     
+     <!-- Wakelock blocker -->
+     <PreferenceScreen
+         android:key="wakelock_blocker"
+         android:title="@string/wakelock_blocker_title"
+         android:fragment="com.android.settings.candy.WakeLockBlocker">
+     </PreferenceScreen>
+
 </PreferenceScreen>
